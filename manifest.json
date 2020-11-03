@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Password Generator",
+  "description": "This extension generates random strings to use as passwords.",
+  "version": "0.1",
+  "permissions": [
+    "https://ajax.googleapis.com/"
+  ],
+  "browser_action": {
+    "default_popup": "generator/popup.html",
+    "default_icon": "generator/img/icon.png"
+  }
+}

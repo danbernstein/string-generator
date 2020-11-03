@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      button {
+        margin: 10px;
+      }
+      div {
+        margin: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <label>special characters</label>
+      <input type="checkbox" id='special' checked></input>
+    </div>
+    <div>
+      <label>character length: </label>
+      <b>
+        <output id='string_length_output'>
+          32
+        </output>
+      </b>
+      <input type="range" id="characters" min="1" max="100" value="32">
+    </div>
+    <div>
+      <button id='btnGenerate'>Generate/copy</button>
+    </div>
+    <input type="text" id='outputString'></input>
+    <!--  
+      <input type="checkbox" id='showPW'></input>
+    --> 
+    <script src="popup.js"></script>
+    <p style="color: grey;">
+      Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+    </p>
+  </body>
+</html>
